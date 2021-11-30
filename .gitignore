@@ -66,3 +66,8 @@ common/autoinstallers/*/.npmrc
 
 # Heft
 .heft
+
+# build dir
+lib
+esm
+dist
