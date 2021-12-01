@@ -396,6 +396,10 @@
     {
       "packageName": "@monorepo-demo/docs",
       "projectFolder": "packages/docs"
+    },
+    {
+      "packageName": "@monorepo-demo/eslint",
+      "projectFolder": "packages/eslint"
     }
     // {
     //   /**
