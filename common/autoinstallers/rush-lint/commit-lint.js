@@ -18,7 +18,7 @@ async function main() {
         await execa('bash', [commitlintBinPath, '--config', configPath, '--cwd', path.dirname(gitPath), '--edit'], {
             stdio: 'inherit',
         });
-    } catch (\_e) {
+    } catch {
         process.exit(1);
     }
 }
