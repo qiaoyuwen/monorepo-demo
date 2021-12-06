@@ -11,6 +11,20 @@
    * "rush my-global-command --help".
    */
   "commands": [
+    {
+      "name": "commitlint",
+      "commandKind": "global",
+      "summary": "执行commitlint",
+      "autoinstallerName": "rush-lint",
+      "shellCommand": "node common/autoinstallers/rush-lint/commit-lint.js"
+    },
+    {
+      "name": "lint",
+      "commandKind": "global",
+      "summary": "执行lint-staged",
+      "autoinstallerName": "rush-lint",
+      "shellCommand": "lint-staged"
+    }
     // {
     //   /**
     //    * (Required) Determines the type of custom command.
